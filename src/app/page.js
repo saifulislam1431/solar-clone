@@ -1,5 +1,6 @@
 import AlternativeFunding from "@/components/Home/AlternativeFunding/AlternativeFunding";
 import Banner from "@/components/Home/Banner/Banner";
+import IndustriesWeServe from "@/components/Home/IndustriesWeServe/IndustriesWeServe";
 import PartnerContainer from "@/components/Home/PartnerContainer/PartnerContainer";
 import SCGVsMajor from "@/components/Home/SCGVsMajor/SCGVsMajor";
 import TrustfulFunding from "@/components/Home/TrustfulFunding/TrustfulFunding";
@@ -13,6 +14,7 @@ export default function Home() {
       <AlternativeFunding />
       <TrustfulFunding />
       <SCGVsMajor />
+      <IndustriesWeServe />
     </section>
   );
 }
