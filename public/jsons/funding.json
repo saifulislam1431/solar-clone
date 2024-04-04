@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Fast Business Loan",
+        "content": "Fast business loans can help you fund your business without collateral.",
+        "img": "/businessFunding/fund1.jpg",
+        "url": "fast-business-loans"
+    },
+    {
+        "title": "Business Line of Credit",
+        "content": "With a business line of credit, you can borrow up to a maximum credit limit and only pay interest on the amount of capital that you borrow from your credit line.",
+        "img": "/businessFunding/fund2.jpg",
+        "url": "business-line-credit"
+    },
+    {
+        "title": "Business Term Loan",
+        "content": "Business term loans can provide companies with working capital to overcome a financial hurdle, pay off higher-interest debt, or quickly jump on a great opportunity when it comes up.",
+        "img": "/businessFunding/fund3.jpg",
+        "url": "business-term-loan"
+    }
+]

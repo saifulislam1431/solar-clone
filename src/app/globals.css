@@ -55,3 +55,7 @@
 .myBtn {
   @apply text-lg border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500
 }
+
+.shadow-primary {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
