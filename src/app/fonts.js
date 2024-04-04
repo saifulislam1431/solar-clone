@@ -1,4 +1,5 @@
 import { Fira_Sans, Inter, PT_Sans, Poppins } from "next/font/google";
+import localFont from 'next/font/local'
 
 export const sans = Fira_Sans({
     subsets: ["latin"],
@@ -16,3 +17,14 @@ export const ptSans = PT_Sans({
     display: "optional",
     weight: ['400', '700']
 })
+
+export const ceraRegular = localFont({ src: '../../public/fonts/cera-pro/cerapro-regular.otf' });
+
+
+export const ceraMedium = localFont({ src: '../../public/fonts/cera-pro/cerapro-medium.otf' });
+
+
+export const ceraBold = localFont({ src: '../../public/fonts/cera-pro/cerapro-bold.otf' });
+
+
+export const ceraBlack = localFont({ src: '../../public/fonts/cera-pro/cerapro-black.otf' })

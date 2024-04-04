@@ -53,5 +53,5 @@
 }
 
 .myBtn {
-  @apply font-semibold text-lg border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500
+  @apply text-lg border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500
 }

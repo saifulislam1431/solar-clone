@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import logo from "../../../../public/logo/SCG_Logo.png"
-import { ptSans } from '@/app/fonts';
+import { ceraMedium, ceraRegular, ptSans } from '@/app/fonts';
 import Link from 'next/link';
 import { FaAngleDown, FaAngleRight } from 'react-icons/fa6';
 import { usePathname } from 'next/navigation';
@@ -142,7 +142,7 @@ const Navbar = () => {
                 {/* Apply Btn */}
 
                 <div className='hidden lg:flex items-center gap-3'>
-                    <Link href="/application" className={`${ptSans.className} myBtn px-6 py-1`}>Apply Now</Link>
+                    <Link href="/application" className={`${ceraMedium.className} myBtn px-6 py-1`}>Apply Now</Link>
                 </div>
 
             </div>
