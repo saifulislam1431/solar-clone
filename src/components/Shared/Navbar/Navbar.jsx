@@ -1,14 +1,15 @@
 'use client'
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import logo from "../../../../public/logo/SCG_Logo.png"
 import { ceraMedium, ceraRegular, ptSans } from '@/app/fonts';
 import Link from 'next/link';
 import { FaAngleDown, FaAngleRight } from 'react-icons/fa6';
 import { usePathname } from 'next/navigation';
+import { WrapperContext } from '@/utils/Provider/Provider';
 
 const Navbar = () => {
-
+    const { isScrolled } = useContext(WrapperContext)
     const path = usePathname();
     const [isDrawerOpen, setDrawerOpen] = useState(false);
 
@@ -96,9 +97,13 @@ const Navbar = () => {
 
 
     </>
+
+
+
+
     return (
-        <section className='bg-transparent py-2 px-6 h-[82px] nav'>
-            <div className='max-w-7xl mx-auto flex items-center justify-between gap-8 px-2 lg:px-12 py-2 z-50'>
+        <section className={`${isScrolled ? "bg-white sticky top-0" : "bg-transparent"} py-2 px-6 h-[82px] z-50`}>
+            <div className='max-w-7xl mx-auto flex items-center justify-between gap-8 px-2 lg:px-12 py-2'>
 
                 {/* Logo */}
                 <div>

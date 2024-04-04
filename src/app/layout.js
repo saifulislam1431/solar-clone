@@ -18,13 +18,8 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.className}`}>
 
         <Provider>
-          <header>
-            <TopHeader />
-            <nav className="nav">
-              <Navbar />
-            </nav>
-          </header>
-
+          <TopHeader />
+          <Navbar />
 
           <main>
             {children}

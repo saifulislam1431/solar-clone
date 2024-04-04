@@ -6,9 +6,9 @@ import Image from 'next/image';
 
 const Banner = () => {
     return (
-        <section className='min-h-screen banner-container relative lg:-top-[82px]'>
+        <section className='banner-container relative lg:-top-[82px] -z-10'>
 
-            <div className='max-w-7xl h-full mx-auto flex items-center justify-between '>
+            <div className='max-w-7xl h-full mx-auto flex items-center justify-between z-40'>
                 <div className='mt-4 gap-y-10 lg:gap-y-0 lg:mt-[90px] w-full h-full flex flex-col lg:flex-row items-center justify-between px-4 lg:px-16'>
                     <div className='text-center lg:text-start'>
                         <p className={`${ceraBold.className} text-[30px] lg:text-[48px] font-bold mb-10 max-w-[600px] lg:leading-[55px]`}

@@ -45,7 +45,7 @@
 .banner-container {
   background-image: url("/banner/Hero-Bg.jpg");
   background-size: cover;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .sub-menu {
