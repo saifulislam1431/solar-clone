@@ -59,3 +59,34 @@
 .shadow-primary {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+
+.table-container {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+#difference-table {
+  overflow-x: auto;
+  width: 100%;
+}
+
+#difference-table td,
+#difference-table th {
+  border: 0px solid white;
+  padding: 15px 40px;
+}
+
+#difference-table tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+
+#difference-table th {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: "#000000";
+}
