@@ -90,11 +90,15 @@ const Navbar = () => {
             <Link href="/contact-us" className="m-1 flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium w-full">Contact us</Link>
         </li>
 
+        <li className='border-b w-full lg:w-fit lg:border-none px-0 py-2 lg:py-0 lg:hidden'>
+            <Link href="/application" className="m-1 flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium w-full">Apply Now</Link>
+        </li>
+
 
     </>
     return (
-        <nav className='bg-transparent py-2 px-6'>
-            <div className='max-w-7xl mx-auto flex items-center justify-between gap-8 px-2 lg:px-12 py-2'>
+        <section className='bg-transparent py-2 px-6 h-[82px] nav'>
+            <div className='max-w-7xl mx-auto flex items-center justify-between gap-8 px-2 lg:px-12 py-2 z-50'>
 
                 {/* Logo */}
                 <div>
@@ -138,11 +142,11 @@ const Navbar = () => {
                 {/* Apply Btn */}
 
                 <div className='hidden lg:flex items-center gap-3'>
-                    <button className={`${ptSans.className} font-semibold text-lg px-6 py-1 border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500`}>Apply Now</button>
+                    <Link href="/application" className={`${ptSans.className} myBtn px-6 py-1`}>Apply Now</Link>
                 </div>
 
             </div>
-        </nav>
+        </section>
     );
 };
 

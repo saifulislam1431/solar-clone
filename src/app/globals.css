@@ -41,6 +41,17 @@
 }
 
 
+/* Banner */
+.banner-container {
+  background-image: url("/banner/Hero-Bg.jpg");
+  background-size: cover;
+  z-index: -1;
+}
+
 .sub-menu {
   @apply bg-primary w-full text-white font-medium border-b border-white hover:bg-white hover:text-primary hover:border-primary transition-all duration-500
+}
+
+.myBtn {
+  @apply font-semibold text-lg border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500
 }
