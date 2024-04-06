@@ -33,7 +33,7 @@ const WhoWeHavePage = () => {
             </section>
 
 
-            <div className='max-w-5xl mx-auto text-[18px] text-[#505050] font-medium space-y-4'>
+            <div className='max-w-5xl mx-auto text-[18px] text-[#505050] font-medium space-y-4 px-5 mt-20 lg:my-0'>
                 <p>Getting the funding you need from a traditional lender like a bank can be difficult, especially for Car Repair Service providers.</p>
                 <p>Lengthy approval processes, denials due to demand instability, cash flow fluctuations, and long account receivable periods…</p>
                 <p>Access to a reliable source of capital is a challenge.</p>

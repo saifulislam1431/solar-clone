@@ -8,7 +8,8 @@ import { ceraMedium } from '@/app/fonts';
 const Footer = () => {
     return (
         <footer className='bg-primary'>
-            <div className="flex px-12 py-8 lg:py-16 lg:px-16 items-center lg:items-start justify-between flex-col lg:flex-row gap-10 text-center">
+            <div className="flex px-12 py-8 lg:py-16 lg:px-16 items-start justify-between flex-col lg:flex-row gap-10 text-center">
+
                 <div className="logo-container flex flex-col items-start gap-y-6">
                     <div className="logo-container flex items-center gap-2 justify-center">
                         <div className="w-48">
@@ -104,7 +105,7 @@ const Footer = () => {
             <div className="border-t border-[#FFFFFF] opacity-60 w-[90%] mx-auto py-2">
 
             </div>
-            <div className="flex pt-4 pb-6 px-10 lg:px-16 items-center justify-between  w-full mx-auto"
+            <div className="flex pt-4 pb-6 px-10 lg:px-16 items-start lg:items-center gap-4 justify-between flex-col lg:flex-row  w-full mx-auto"
             >
                 <p className={`text-[#ffffff] opacity-60 ${ceraMedium.className}`}>
                     Copyright © 2022 Solar Capital Group LLC. All rights reserved.
