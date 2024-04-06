@@ -34,7 +34,7 @@ const TrustfulFunding = () => {
                     </div>
 
                     <div className='mt-10'>
-                        <Link href="/how-it-works" className={`${ceraMedium.className} myBtn px-5 py-2`}>Read More</Link>
+                        <Link href="/how-it-works" className={`${ceraMedium.className} myBtn px-5 py-2 text-lg`}>Read More</Link>
                     </div>
                 </div>
             </div>

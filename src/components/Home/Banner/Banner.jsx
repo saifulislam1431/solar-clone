@@ -14,7 +14,7 @@ const Banner = () => {
                         <p className={`${ceraBold.className} text-[30px] lg:text-[48px] font-bold mb-10 max-w-[600px] lg:leading-[55px]`}
                         >A Trusted Source of Fast, Flexible Financing for Small Businesses</p>
 
-                        <Link href="/company" className={`${ceraMedium.className} myBtn py-4 px-8 mt-6`}>Learn More</Link>
+                        <Link href="/company" className={`${ceraMedium.className} myBtn py-4 px-8 mt-6 text-xl`}>Learn More</Link>
                     </div>
 
                     <div>

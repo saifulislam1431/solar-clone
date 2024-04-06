@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "img": "/testimonial/client1.png",
+        "gIcon": "/testimonial/google-icon.svg",
+        "name": "Jenny Wilson",
+        "posted": "10 min ago",
+        "comment": "Solar helped me from the beginning to the end of the process, So easy and quick, Thank you!",
+        "review": "(4.0) Reviews",
+        "rating": 4.0
+    },
+    {
+        "id": 2,
+        "img": "/testimonial/client2.png",
+        "gIcon": "/testimonial/google-icon.svg",
+        "name": "Kristin Watson One",
+        "posted": "10 min ago",
+        "comment": "Got funded in 1 day! Steven was so helpful with the whole process. Recommend!",
+        "review": "(5.0) Reviews",
+        "rating": 5.0
+    },
+    {
+        "id": 3,
+        "img": "/testimonial/client3.png",
+        "gIcon": "/testimonial/google-icon.svg",
+        "name": "Guy Hawkins One",
+        "posted": "10 min ago",
+        "comment": "Outstanding company got me funded 250k with a great term. Much appreciated!",
+        "review": "(3.0) Reviews",
+        "rating": 3.0
+    },
+    {
+        "id": 4,
+        "img": "/testimonial/client1.png",
+        "gIcon": "/testimonial/google-icon.svg",
+        "name": "Jenny Wilson",
+        "posted": "10 min ago",
+        "comment": "Honest company with straightforward terms, got me funded in 24 hours! Thank you Solar!",
+        "review": "(4.0) Reviews",
+        "rating": 4.0
+    },
+    {
+        "id": 5,
+        "img": "/testimonial/client3.png",
+        "gIcon": "/testimonial/google-icon.svg",
+        "name": "Guy Hawkins One",
+        "posted": "10 min ago",
+        "comment": "Banks said no, but Solar said yes…Love these guys for the quick funding!",
+        "review": "(3.0) Reviews",
+        "rating": 3.0
+    }
+]

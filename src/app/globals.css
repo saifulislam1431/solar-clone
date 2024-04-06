@@ -53,7 +53,7 @@
 }
 
 .myBtn {
-  @apply text-lg border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500
+  @apply border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500
 }
 
 .shadow-primary {

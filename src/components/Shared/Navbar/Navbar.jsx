@@ -147,7 +147,7 @@ const Navbar = () => {
                 {/* Apply Btn */}
 
                 <div className='hidden lg:flex items-center gap-3'>
-                    <Link href="/application" className={`${ceraMedium.className} myBtn px-6 py-1`}>Apply Now</Link>
+                    <Link href="/application" className={`${ceraMedium.className} myBtn px-6 py-1 text-lg`}>Apply Now</Link>
                 </div>
 
             </div>

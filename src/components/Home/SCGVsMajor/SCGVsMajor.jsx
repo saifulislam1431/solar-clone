@@ -12,7 +12,7 @@ const SCGVsMajor = () => {
                 </div>
 
                 <div className='mt-11'>
-                    <div className='shadow-primary p-9 rounded-2xl'>
+                    <div className='shadow-primary p-9 rounded-3xl'>
 
                         <div className='flex items-center gap-x-3'>
                             <div className='w-5 h-5 rounded-full bg-error' />
