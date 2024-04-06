@@ -48,5 +48,15 @@
         "comment": "Banks said no, but Solar said yes…Love these guys for the quick funding!",
         "review": "(3.0) Reviews",
         "rating": 3.0
+    },
+    {
+        "id": 6,
+        "img": "/testimonial/client2.png",
+        "gIcon": "/testimonial/google-icon.svg",
+        "name": "Kristin Watson",
+        "posted": "10 min ago",
+        "comment": "A++ company, Thank you Solar for everything!",
+        "review": "(5.0) Reviews",
+        "rating": 5.0
     }
 ]

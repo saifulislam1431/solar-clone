@@ -1,5 +1,6 @@
 import AlternativeFunding from "@/components/Home/AlternativeFunding/AlternativeFunding";
 import Banner from "@/components/Home/Banner/Banner";
+import GetStarted from "@/components/Home/GetStarted/GetStarted";
 import IndustriesWeServe from "@/components/Home/IndustriesWeServe/IndustriesWeServe";
 import PartnerContainer from "@/components/Home/PartnerContainer/PartnerContainer";
 import SCGVsMajor from "@/components/Home/SCGVsMajor/SCGVsMajor";
@@ -17,6 +18,7 @@ export default function Home() {
       <SCGVsMajor />
       <IndustriesWeServe />
       <Testimonials />
+      <GetStarted />
     </section>
   );
 }

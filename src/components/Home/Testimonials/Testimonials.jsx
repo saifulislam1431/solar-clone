@@ -43,7 +43,7 @@ const Testimonials = () => {
             </div>
 
             <div className='mt-8'>
-                <div className="hidden lg:flex">
+                <div className="">
                     <Swiper
                         effect={'coverflow'}
                         grabCursor={true}
@@ -58,7 +58,7 @@ const Testimonials = () => {
                         className="mySwiper"
                     >
                         {
-                            testimonialData?.map((review) => <SwiperSlide key={review?.id} className='bg-[#ffffff] rounded-xl shadow-primary relative'>
+                            testimonialData?.map((review) => <SwiperSlide key={review?.id} className='bg-[#ffffff] rounded-2xl shadow-primary relative'>
                                 <div className='w-full h-full p-5 relative'>
                                     <div className='w-full flex items-start justify-between'>
                                         <div className='flex items-center gap-3'>
