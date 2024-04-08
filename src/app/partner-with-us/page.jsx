@@ -228,8 +228,18 @@ const PartnerWith = () => {
                 {/* Legend */}
                 <p className='mt-1 mb-3 font-medium'>Consent</p>
 
-                <div className='checkbox-wrapper-1 mt-2'>
-                    <input id="example-1" className="substituted" type="checkbox" aria-hidden="true" />
+                <div className='checkbox-wrapper-45 mt-2'>
+                    <input id="cbx-45" type="checkbox" />
+                    <label class="cbx" for="cbx-45">
+                        <div class="flip">
+                            <div class="front"></div>
+                            <div class="back">
+                                <svg width="16" height="14" viewBox="0 0 16 14">
+                                    <path d="M2 8.5L6 12.5L14 1.5"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
                     <label htmlFor="">I agree to the terms and conditions of this application, and affirm everything is true.</label>
                 </div>
 

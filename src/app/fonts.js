@@ -18,13 +18,13 @@ export const ptSans = PT_Sans({
     weight: ['400', '700']
 })
 
-export const ceraRegular = localFont({ src: '../../public/fonts/cera-pro/cerapro-regular.otf' });
+export const ceraRegular = localFont({ src: '../../public/fonts/cera-pro/CeraPro-Regular.ttf' });
 
 
-export const ceraMedium = localFont({ src: '../../public/fonts/cera-pro/cerapro-medium.otf' });
+export const ceraMedium = localFont({ src: '../../public/fonts/cera-pro/CeraPro-Medium.ttf' });
 
 
-export const ceraBold = localFont({ src: '../../public/fonts/cera-pro/cerapro-bold.otf' });
+export const ceraBold = localFont({ src: '../../public/fonts/cera-pro/CeraPro-Bold.ttf' });
 
 
-export const ceraBlack = localFont({ src: '../../public/fonts/cera-pro/cerapro-black.otf' })
+export const ceraBlack = localFont({ src: '../../public/fonts/cera-pro/CeraPro-Black.ttf' })
