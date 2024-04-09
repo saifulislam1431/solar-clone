@@ -1,0 +1,27 @@
+[
+    {
+        "img": "/process/qualify.jpg",
+        "title": "Qualify",
+        "description": "Because we specialize in providing capital to underserved small businesses who may not qualify elsewhere, we keep our eligibility requirements simple and attainable. Businesses must be in business in the U.S. for at least one year, make $10,000+ in monthly revenue, and owners must have a 500+ credit score."
+    },
+    {
+        "img": "/process/apply.jpg",
+        "title": "Apply",
+        "description": "Our application only requires basic information – owner’s name, social security number, business name, Tax ID, and last three months’ business bank statements. Customers also provide some minimal documentation – driver’s license, voided check, signed contract, and bank verification. Rarely, other documents may be needed, such as a tax return or proof of ownership."
+    },
+    {
+        "img": "/process/approval.jpg",
+        "title": "Get Approval",
+        "description": "Once we receive the necessary information and documentation, we jump right into reviewing everything and conducting a full, upfront underwrite. That means when we issue an approval, our deals stick and typically do not need to be modified. Customers are usually informed of the outcome of their application within a few hours."
+    },
+    {
+        "img": "/process/funding.jpg",
+        "title": "Receive Funding",
+        "description": "If a customer accepts our approval, we hold a funding call with all new customers. The goal is to be very clear about the features of revenue-based financing and the terms of the contract. When the customer feels confident about their funding details and has had their questions answered, we are often able to transfer the funds into the business bank account that same day."
+    },
+    {
+        "img": "/process/renew.jpg",
+        "title": "Renew",
+        "description": "We make every effort to provide the funding a customer needs to help their business thrive. If a customer is up-to-date with payments and has paid about half of their balance, they may qualify for a renewal – an additional round of funding that can be used for any business purpose. Customers simply contact their dedicated Account Executive to get started."
+    }
+]
