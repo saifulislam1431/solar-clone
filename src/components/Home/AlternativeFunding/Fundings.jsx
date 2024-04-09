@@ -17,7 +17,7 @@ const Funding = () => {
     return (
         <section className='flex flex-col lg:flex-row items-start justify-center gap-7'>
             {
-                fundData?.map((fund, indx) => <div key={indx} className="card w-96 bg-base-100 shadow-primary">
+                fundData?.map((fund, indx) => <div key={indx} className="card w-96 bg-base-100 shadow-primary lg:h-[520px]">
                     <figure className="px-5 pt-5">
                         <Image src={fund?.img} alt={fund?.title} width={310} height={155} />
                     </figure>

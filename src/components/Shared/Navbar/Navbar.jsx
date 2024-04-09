@@ -28,7 +28,7 @@ const Navbar = () => {
     const navItems = <>
 
         <li className="dropdown dropdown-hover w-full lg:w-fit border-b lg:border-none px-0 py-2 lg:py-0" onClick={closeDrawer}>
-            <Link tabIndex={0} href="/service" className="m-1 w-full flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium">Services <FaAngleDown className='hidden lg:flex' /> <FaAngleRight className='lg:hidden' /></Link>
+            <Link tabIndex={0} href="/service" className="m-1 w-full flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium">Services <FaAngleDown className='hidden lg:flex' /> <FaAngleRight className='hidden' /></Link>
             {/* <div  role="button" >Hover</div> */}
             <ul tabIndex={0} className="dropdown-content z-[1] menu shadow w-52 p-0 mt-2">
                 <li className='sub-menu'>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
 
         <li className="dropdown dropdown-hover w-full lg:w-fit border-b lg:border-none px-0 py-2 lg:py-0" onClick={closeDrawer}>
-            <Link tabIndex={0} href="/who-we-serve" className="m-1 flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium w-full">Who We Serve <FaAngleDown className='hidden lg:flex' /> <FaAngleRight className='lg:hidden' /></Link>
+            <Link tabIndex={0} href="/who-we-serve" className="m-1 flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium w-full">Who We Serve <FaAngleDown className='hidden lg:flex' /> <FaAngleRight className='hidden' /></Link>
             {/* <div  role="button" >Hover</div> */}
             <ul tabIndex={0} className="dropdown-content z-[1] menu shadow w-52 p-0 mt-2">
                 <li className='sub-menu'>
@@ -68,7 +68,7 @@ const Navbar = () => {
 
 
         <li className="dropdown dropdown-hover w-full lg:w-fit border-b lg:border-none px-0 py-2 lg:py-0" onClick={closeDrawer}>
-            <Link tabIndex={0} href="/company" className="m-1 flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium w-full">Company <FaAngleDown className='hidden lg:flex' /> <FaAngleRight className='lg:hidden' /></Link>
+            <Link tabIndex={0} href="/company" className="m-1 flex items-center justify-between lg:justify-center gap-1 text-[17px] font-medium w-full">Company <FaAngleDown className='hidden lg:flex' /> <FaAngleRight className='hidden' /></Link>
             {/* <div  role="button" >Hover</div> */}
             <ul tabIndex={0} className="dropdown-content z-[1] menu shadow w-52 p-0 mt-2">
                 <li className='sub-menu'>
@@ -131,7 +131,7 @@ const Navbar = () => {
                             <span></span>
                         </label>
                     </div>
-                    <div className="drawer-side mt-[120px]">
+                    <div className="drawer-side mt-[80px]">
                         <label
                             htmlFor="my-drawer"
                             aria-label="close sidebar"
