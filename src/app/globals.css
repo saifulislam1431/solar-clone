@@ -90,3 +90,89 @@
   text-align: center;
   color: "#000000";
 }
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+/* Style for the custom radio button */
+.custom-radio label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 10px;
+}
+
+/* Style for the radio button */
+.custom-radio label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+}
+
+/* Style for the checked radio button */
+.custom-radio input[type="radio"]:checked+label:before {
+  background-color: #2196F3;
+  border-color: #2196F3;
+}
+
+/* Optional: Style for the check mark */
+.custom-radio label:after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* Show the check mark when the radio input is checked */
+.custom-radio input[type="radio"]:checked+label:after {
+  display: block;
+}
+
+.drop-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px dashed #555;
+  color: #444;
+  cursor: pointer;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+/* .drop-container:hover {
+  background: #eee;
+  border-color: #111;
+} */
+
+.drop-container:hover .drop-title {
+  color: #222;
+}
+
+.drop-title {
+  color: #444;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  transition: color .2s ease-in-out;
+}
+
+.uploadLabel {
+  @apply border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500 px-6 py-2
+}
