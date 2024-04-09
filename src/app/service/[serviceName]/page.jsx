@@ -4,6 +4,7 @@ import React from 'react';
 import Link from "next/link"
 import FastBusinessLones from '@/components/FastBusinessLones/FastBusinessLones';
 import BusinessLineCredit from '@/components/BusinessLineCredit/BusinessLineCredit';
+import BusinessTermLoan from '@/components/BusinessTermLoan/BusinessTermLoan';
 
 const fastBusinessLoansPage = ({ params }) => {
     const serviceName = params?.serviceName
@@ -24,7 +25,7 @@ const fastBusinessLoansPage = ({ params }) => {
             </div>
 
             {
-                serviceName === "fast-business-loans" ? <FastBusinessLones /> : serviceName === "business-line-credit" ? <BusinessLineCredit /> : ""
+                serviceName === "fast-business-loans" ? <FastBusinessLones /> : serviceName === "business-line-credit" ? <BusinessLineCredit /> : <BusinessTermLoan />
             }
         </section>
     );
