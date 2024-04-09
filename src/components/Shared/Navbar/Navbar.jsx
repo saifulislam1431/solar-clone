@@ -32,13 +32,13 @@ const Navbar = () => {
             {/* <div  role="button" >Hover</div> */}
             <ul tabIndex={0} className="dropdown-content z-[1] menu shadow w-52 p-0 mt-2">
                 <li className='sub-menu'>
-                    <Link className='' href="/fast-business-loans">Fast Business Loans</Link>
+                    <Link className='' href="/service/fast-business-loans">Fast Business Loans</Link>
                 </li>
                 <li className='sub-menu'>
-                    <Link className='' href="/business-line-credit">Business Line of Credit</Link>
+                    <Link className='' href="/service/business-line-credit">Business Line of Credit</Link>
                 </li>
                 <li className='sub-menu'>
-                    <Link className='' href="/business-term-loan">Business Term Loan</Link>
+                    <Link className='' href="/service/business-term-loan">Business Term Loan</Link>
                 </li>
             </ul>
         </li>

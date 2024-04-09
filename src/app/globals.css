@@ -176,3 +176,23 @@
 .uploadLabel {
   @apply border-2 border-primary text-[#ffffff] bg-primary hover:text-primary hover:bg-transparent rounded-[10px] transition-all duration-500 px-6 py-2
 }
+
+.tabBtn {
+  border-bottom: 4px solid transparent;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 500ms;
+}
+
+.tabBtn:hover {
+  color: #0696BA;
+  border-bottom-color: #0696BA;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 500ms;
+}
+
+.tabBtn.active {
+  color: #0696BA;
+  border-bottom-color: #0696BA;
+}
