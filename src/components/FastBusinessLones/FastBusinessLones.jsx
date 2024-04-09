@@ -41,13 +41,13 @@ const FastBusinessLones = () => {
                 </div>
             </section>
 
+            {/* Number of Unforeseen Events */}
             <div className='my-14 bg-[#FBFBFB] py-16'>
                 <div className='text-center max-w-5xl mx-auto'>
                     <SectionTitle title="Number of Unforeseen Events" />
                     <p className='text-[18px] text-[#505050] mt-2 font-medium'>Same-day business financing isn’t just for fixing catastrophes; this type of loan is perfect for a number of unforeseen events, including:</p>
                 </div>
-
-                <div className='max-w-5xl mx-auto grid grid-cols-12 mt-16 gap-y-12 justify-items-center'>
+                <div className='max-w-5xl mx-auto grid grid-cols-12 mt-16 gap-y-12 justify-items-center lg:justify-items-start'>
 
                     <div className='col-span-full md:col-span-6 lg:col-span-4 flex items-center gap-x-5'>
                         <div>
@@ -111,6 +111,7 @@ const FastBusinessLones = () => {
                 </div>
             </div>
 
+            {/* How Do I Qualify for Rapid Business Funds? */}
             <div className='my-16 max-w-6xl mx-auto'>
                 <div>
                     <SectionTitle title="How Do I Qualify for Rapid Business Funds?" />
@@ -174,6 +175,7 @@ const FastBusinessLones = () => {
             </div>
 
 
+            {/* Working with a Direct Lender for Fast Business Funding */}
             <div className='max-w-5xl mx-auto text-center mt-20'>
 
                 <div className='mb-6'>
